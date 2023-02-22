@@ -6,7 +6,7 @@ Overall, the program appears to be correct and achieves the intended functionali
 
 However, there are a few issues with the program that could affect its correctness. For example, in the `reverse_string` method, the method name is `reverse_string` but the method body calls `reverseString`. This could cause errors or confusion for other developers working on the code.
 
-Additionally, in the `function` method, the parameter `maxNumber` is declared twice - once as a generic type parameter and once as an `int` variable. This could lead to errors or unexpected behavior if the two variables are not used consistently.
+Additionally, in the `function` method, the parameter `maxNumber` is declared twice - once as a generic type parameter and once as an `int` variable. This could lead to errors or unexpected behavior.
 
 ## Efficiency
 
