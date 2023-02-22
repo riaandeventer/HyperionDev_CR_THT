@@ -2,7 +2,7 @@
 
 ## Section A
 
-Section A Code Review can be found in the folder Section A.  
+Section A Code Review can be found in the folder Section A. Two options were completed.
 
 - Option 1: Python Task
 - Option 2: Java Task
