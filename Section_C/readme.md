@@ -16,9 +16,9 @@ so that the resulting number passes the ISBN-13 check.
 
 __Examples__
 
-isbn13("9780316066525") ➞ "Valid"
-isbn13("0330301824") ➞ "Invalid"
-isbn13("0316066524") ➞ "9780316066525"
+- isbn13("9780316066525") ➞ "Valid"
+- isbn13("0330301824") ➞ "Invalid"
+- isbn13("0316066524") ➞ "9780316066525"
 
 ## Table of Content
 1.  Implementing the program in a virtual environment.
