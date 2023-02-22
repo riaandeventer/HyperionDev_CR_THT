@@ -1,6 +1,4 @@
-# HyperionDev Code Review Section A
-
-## Code Review for "groupAnagrams" method
+# Code Review for "groupAnagrams" method
 
 Here is a review of the Python code that defines a class Solution and its groupAnagrams method.
 
