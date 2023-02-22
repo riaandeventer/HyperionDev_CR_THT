@@ -1,29 +1,36 @@
 # HyperionDev Code Review Section A
 
-## Scores
+## Code Review for "groupAnagrams" method
 
-We’re excited to get to know you and your skills better. The next step of the interview process with HyperionDev’s Code Reviewer Network is to complete a
-take-home exercise. Please complete this exercise within 2 days of receiving it and make sure your responses are all submitted to the link in the email
-from which you received this assessment. Should you have any questions, don't hesitate to send them to edutalent@hyperiondev.com
+Here is a review of the Python code that defines a class Solution and its groupAnagrams method.
 
-## Positive aspects of the submission
+### Correctness
 
-HyperionDev is the largest provider of software development education in Southern Africa, and one of the largest globally. Founded by Riaz Moola in 2012, 
-HyperionDev is counted among the top education technology startups in EMEA with headquarters in Cape Town and London. We were originally launched from the 
-University of Cambridge, and our leadership team consists of world-leading talent from companies such as Google, Amazon, 2U/GetSmarter, Yoco, Zando and PwC.
+The code appears to be correct and implements the expected functionality of grouping anagrams. The method uses a dictionary to store the anagram groups, and correctly sorts the strings to identify their anagram groups. The logic inside the for loop correctly adds each string to its corresponding anagram group or creates a new group if the anagram is not already in the dictionary.
 
-## Aspects of the submission that could be improved
+### Efficiency
 
-In this role, you will be joining our team of specialist code reviewers. Our reviewers are developers with a skill set that is at 
-the intersection of coding and teaching. Reviewers work with leading tech partners from around the world in fields as diverse as coding education, 
-developer assessment and tech team peer reviews.
+The code is fairly efficient with a time complexity of O(n k log k) where n is the length of input strs and k is the maximum length of a string in strs. This is because for each string, the code sorts it with a time complexity of O(k log k) and then checks if the resulting sorted string is in the dictionary with a time complexity of O(1).
 
-Pursuing reviewing as an opportunity provides a fulfilling way of specializing yourself further while garnering international work experience. It promises a 
-promising career path with a trajectory similar to that of a traditional educator and compensation/benefits rivalling those in the software & IT industry. 
-Please complete the tasks below to help us understand how your skills may best fit the requirements of our team. 
+However, the code could be improved by using a more space-efficient data structure, such as a list of tuples or a list of lists instead of a dictionary, since the keys in the dictionary are sorted strings that are repeated among the input strings.
 
-## Overall feedback
+### Style
 
+The code follows the PEP 8 style guide for Python, including indentation and naming conventions. The variable names are descriptive, and the method name is clear and accurately describes the functionality of the method.
 
+### Documentation
 
+The code contains docstrings for the class and the method, which is a good practice. However, the docstrings are brief and could be improved to better explain the purpose of the class and method. Additionally, the code could benefit from inline comments to explain the logic of the method in more detail.
 
+### Positive aspects
+
+- The code is well-structured, with a clear definition of the Solution class and its groupAnagrams method.
+- The code follows the PEP 8 style guide for Python, with clear and descriptive variable names.
+- The code implements the expected functionality of grouping anagrams.
+
+### Improvements needed
+
+- The code could benefit from using a more space-efficient data structure, such as a list of tuples or a list of lists.
+- The code could be better documented, with more detailed docstrings and inline comments to explain the logic of the method in more detail.
+
+Overall, the code is well-structured and correctly implements the expected functionality of grouping anagrams. There are some minor improvements that could be made to improve efficiency and documentation, but overall the code is of good quality.
