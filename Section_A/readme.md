@@ -1,4 +1,4 @@
-# Code review on your Compulsory Task 1: Given an array of strings strs, group the anagrams together.
+# Code review on your Compulsory Task 1: Given an array of strings (strs), group the anagrams together.
 
 ### Correctness
 
