@@ -1,7 +1,7 @@
 # Report: Space Complexity of ISBN-13 Validator
 
-The space complexity of an algorithm refers to the amount of memory it requires to complete its execution. This report aims to analyze the worst-case space complexity 
-of the ISBN-13 validator function implemented in Python.
+The space complexity of an algorithm refers to the amount of memory it requires to complete its execution. 
+This report aims to analyze the worst-case space complexity of the ISBN-13 validator function implemented in Python.
 
 The ISBN-13 validator function takes as input a string of numbers (possibly with an X at the end) and returns one of three possible outputs:
 
