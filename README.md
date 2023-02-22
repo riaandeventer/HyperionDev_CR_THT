@@ -4,8 +4,8 @@
 
 Section A Code Review can be found in the folder Section A.  
 
-- Option 1 Python Task
-- Option 2 Java Task
+- Option 1: Python Task
+- Option 2: Java Task
 
 ## Section B
 
