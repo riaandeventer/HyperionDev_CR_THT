@@ -38,13 +38,13 @@ __Examples__
 
 ##### 1.1   Dependencies
 
-The virtual environment requires the installation of python, pip, django and spacy.
+The virtual environment requires the installation of python & pip.
 
 ##### 1.2   Copying Files
 
 Go to the directory or folder where you want to install the project and enter the following command in the command line:
 ```
->git clone https://github.com/riaandeventer/watch_next
+>git clone https://github.com/riaandeventer/HyperionDev_CR_THT
 ```
 If you are asked for a login then it should be because you might have made a typing error with the link.
 
@@ -53,11 +53,12 @@ If you are asked for a login then it should be because you might have made a typ
 If your files copied successfully, there should be a folder garden_path when you enter the >dir command.
 Go to this directory with below command.
 ```
->cd watch_next
+>cd HyperionDev_CR_THT
+>cd section_3
 ```
 Now we can run the program with below command:
 ```
->python watch_next.py
+>python isbn.py
 ```
 
 ### 2.  Implementing the program in a Docker environment.
@@ -93,22 +94,23 @@ Regardless if you are now in the desktop command prompt or the docker playground
 
 Copy the required files.
 ```
->git clone https://github.com/riaandeventer/watch_next
+>git clone https://github.com/riaandeventer/HyperionDev_CR_THT
 ```
 If you are asked for a login then it should be because you might have made a typing error with the link.
 
 First we have to go into the folder that was created from the clone.
 ```
->cd watch_next
+>cd HyperionDev_CR_THT
+>cd Section_3           -- You can change this folder name to isbn
 ```
 Now we have to build the project with following commands:
 ```
->docker build -t watch_next ./
+>docker build -t isbn ./
 ```
 Now we need to connect the build name with the docker hub repository that we want to create.
 We will do this with the below command.
 ```
->docker tag watch_next [docker hub username without square brackets]/watch_next
+>docker tag isbn [docker hub username without square brackets]/isbn
 ```
 Now we need to copy our build to our docker hub. We need to use the push command from the command prompt
 or the playground prompt (Which ever one you are using).
@@ -119,9 +121,9 @@ To be able to push to docker hub, we need access to docker hub from the command 
 You will be asked for your docker hub username and password. Enter these and lookout for the login succeeded message.
 If the login was successful, let's push our build to docker hub with the following command:
 ```
->docker push [docker hub username without square brackets]/watch_next
+>docker push [docker hub username without square brackets]/isbn
 ```
-We have now created our project on docker hub. Go to Docker Hub and confirm that there is now a semantic_sim repository
+We have now created our project on docker hub. Go to Docker Hub and confirm that there is now a isbn repository
 indicating that a push took place.
 
 If you have been working with Docker Desktop, we are no done with Docker Desktop and will complete the rest with Docker Playground.
@@ -135,7 +137,7 @@ click “add new instance”.
 **If you have used Docker Playground for Copying Files and Publishing the site to Docker Hub** then you can just continue with the following commands:
 
 ```
->docker run [docker hub username without square brackets]/watch_next
+>docker run [docker hub username without square brackets]/isbn
 ```
 Docker on the VM will download your image from Docker Hub and do all the relevant preparations and installation to make your app work.
 
