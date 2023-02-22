@@ -4,7 +4,7 @@
 
 The code appears to be correct and implements the expected functionality of grouping anagrams. The method uses a dictionary to store the anagram groups, and correctly sorts the strings to identify their anagram groups. The logic inside the for loop correctly adds each string to its corresponding anagram group or creates a new group if the anagram is not already in the dictionary. 
 
-The given code however, seems to have a syntax error in the join method because it is not provided with the iterable that needs to be sorted.
+The given code however, seems to have a syntax error in line 5 in the join method because it is not provided with the iterable that needs to be sorted.
 
 ### Efficiency
 
@@ -18,7 +18,7 @@ Good styling is when the code follows the prescribed style guide for Python, inc
 
 ### Documentation
 
-The code contains comments that provide some guidance on the purpose of the class and method, but more detailed documentation would be helpful. The docstring for the groupAnagrams method is missing, and could be added to explain the purpose of the method and its input and output parameters.
+Detailed documentation would be helpful to provide some guidance on the purpose of the class and method. The docstring for the groupAnagrams method is missing, and could be added to explain the purpose of the method and its input and output parameters.
 
 ### Positive aspects
 
