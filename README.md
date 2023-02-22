@@ -14,7 +14,8 @@ Section A Code Review can be found in the folder Section A. Two options were com
 
 ## Section C
 
-
+- Option 4: International Standard Book Numbers. https://edabit.com/challenge/C5mooK3wfdhoooeLw
+- GitHub Project 2: https://github.com/riaandeventer/HyperionDev_CR_THT/Section_C
 
 ## Section D
 
