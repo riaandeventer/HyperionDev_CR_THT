@@ -42,7 +42,7 @@ The virtual environment requires the installation of python & pip.
 
 ##### 1.2   Copying Files
 
-Go to the directory or folder where you want to install the project and enter the following command in the command line:
+Go to the directory or folder where you want to install the project and enter the following command in the command line or terminal:
 ```
 >git clone https://github.com/riaandeventer/HyperionDev_CR_THT
 ```
@@ -50,11 +50,17 @@ If you are asked for a login then it should be because you might have made a typ
 
 ##### 1.3   Run Program
 
-If your files copied successfully, there should be a folder garden_path when you enter the >dir command.
+If your files copied successfully, there should be a folder Section_C when you enter the >dir command or Windows or >ls -l for Unix or MacOS.
 Go to this directory with below command.
 ```
 >cd HyperionDev_CR_THT
 >cd section_3
+```
+
+or for Unix or MacOS use
+```
+>cd ~/HyperionDev_CR_THT
+>cd ~/Section_3
 ```
 Now we can run the program with below command:
 ```
@@ -103,6 +109,11 @@ First we have to go into the folder that was created from the clone.
 >cd HyperionDev_CR_THT
 >cd Section_3           -- You can change this folder name to isbn
 ```
+or for Unix or MacOS use
+```
+>cd ~/HyperionDev_CR_THT
+>cd ~/Section_3
+```
 Now we have to build the project with following commands:
 ```
 >docker build -t isbn ./
@@ -146,4 +157,3 @@ The program should run in the terminal.
 ### 3.  Authors
 
 Riaan Deventer  - [LinkedIn: @riaandeventer](https://www.linkedin.com/in/riaandeventer/)
-
