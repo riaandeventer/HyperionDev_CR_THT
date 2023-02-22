@@ -28,6 +28,7 @@ Detailed documentation would be helpful to provide some guidance on the purpose 
 ### Improvements needed
 
 - The code could benefit from clear and descriptive variable names, preferably in the snake_case format where possible.
+- Spacing and indentation in the code will be advantageous to the readability of the code.
 - The code could benefit from using a more space-efficient data structure, such as a list of tuples or a list of lists.
 - The code could also be better documented, with more detailed docstrings and inline comments to explain the logic of the method in more detail.
 
